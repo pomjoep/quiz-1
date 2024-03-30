@@ -21,14 +21,14 @@ public class Exercise3 {
         Validation: validate with array of length of at least 10
          */
         int[][] arrays = {
-                {},
-                {0, 1, 1, 2, 3},
-                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34},
-                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610},
-                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 611},
-                {1},
-                {0, 2, 1, 2, 3},
-                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 611},
+                {}, //false
+                {0, 1, 1, 2, 3}, // true
+                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34}, // true
+                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610}, //true
+                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 611}, //false
+                {1}, //false
+                {0, 2, 1, 2, 3}, //false
+                {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 611}, //false
                 // TODO: add a few more...
 
         };
@@ -40,6 +40,16 @@ public class Exercise3 {
 
     private static boolean isValidFib(int[] array) {
         //TODO: add your code
-        return false;
+        if(array.length < 3){
+            return false;
+        }
+        for(int i = 2; i < array.length; i++){
+            if(!(array[i-2] + array[i-1] == array[i])){
+                return false;
+            }
+        }
+        return true;
     }
 }
+
+
