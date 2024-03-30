@@ -2,10 +2,13 @@ package Exercise;
 
 public class Exercise2 {
     public static void main(String[] args) {
-        exercise2();
+        int[] ints = {2, 4, 8, 16, 32, 64, 128};
+        exercise2(ints);
+        ints = new int[]{2, 4, 8, 16, 32, 64, 127};
+        exercise2(ints);
     }
 
-    private static void exercise2() {
+    private static void exercise2(int[] ints) {
         /*
         Task: check whether a list of integer is power of 2
         Input: a list of integers
@@ -15,5 +18,8 @@ public class Exercise2 {
         Additional improvement: make your code run as fast as possible
          */
         //TODO: add your code
+        for(int i = 0; i < ints.length; i++){
+            
+        }
     }
 }
