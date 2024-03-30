@@ -22,9 +22,9 @@ public class HelloWorld {
         // var : name
         // 1 : value
 
-        String str = "seattle";     // String :?
-        // str : ?
-        // "seattle" : ?
+        String str = "seattle";     // String : datatype
+        // str : variable name
+        // "seattle" : data
 
         System.out.println(var);
 
@@ -37,13 +37,13 @@ public class HelloWorld {
         int[] arr;  // define an array
         // int[] : type
         // arr : name
-        // value : ?
+        // value : not yet set
 
         arr = new int[10];  // new : "allocate memory to store this array"
         // int[10] :  an array of 10 elements of type int
 
         arr[0] = 1; // setting the first element (0) to 1
-        arr[2] = 3; // setting ?
+        arr[2] = 3; // setting the 3rd element (2) to 3
 
         System.out.println("first element is " + arr[0]);
 
@@ -82,7 +82,7 @@ public class HelloWorld {
         for (int v : arr) {     // also a loop of all elements in array arr
             v = v + 1;
         }
-        System.out.println(Arrays.toString(arr));   // what should be the output
+        System.out.println(Arrays.toString(arr));   // what should be the output: all the values in arr will be printed
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i * 10;
@@ -95,7 +95,7 @@ public class HelloWorld {
             System.out.println(arr[arr.length - i - 1]); // arr index is from 0 to arr.length - 1
         }
 
-        boolean isRaining = true;   // boolean : variable type, boolean, only 2 possible value true and false
+        boolean isRaining = true;   // boolean: variable type, boolean, only 2 possible values true and false
 
         if (isRaining) {
             System.out.println("I won't go biking");
