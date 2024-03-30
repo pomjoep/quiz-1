@@ -1,5 +1,10 @@
 package Exercise;
 
+/**
+ * Quinn Epstein
+ * Quiz 1
+ * CS 123
+ */
 public class Exercise1 {
     public static void main(String[] args) {
 
@@ -18,34 +23,34 @@ public class Exercise1 {
         int temp = x;
         x = y;
         y = temp;
-        System.out.println("x = " + x + ", y = " + y);
+        System.out.println(STR."x = \{x}, y = \{y}");
         //test 2
         x = 11;
         y = 33;
         temp = x;
         x = y;
         y = temp;
-        System.out.println("x = " + x + ", y = " + y);
+        System.out.println(STR."x = \{x}, y = \{y}");
         // test 3
         x = 131;
         y = 133;
         temp = x;
         x = y;
         y = temp;
-        System.out.println("x = " + x + ", y = " + y);
+        System.out.println(STR."x = \{x}, y = \{y}");
         //test 4
         x = 76;
         y = 33;
         temp = x;
         x = y;
         y = temp;
-        System.out.println("x = " + x + ", y = " + y);
+        System.out.println(STR."x = \{x}, y = \{y}");
         //test 5
         x = 44;
         y = 21;
         temp = x;
         x = y;
         y = temp;
-        System.out.println("x = " + x + ", y = " + y);
+        System.out.println(STR."x = \{x}, y = \{y}");
     }
 }

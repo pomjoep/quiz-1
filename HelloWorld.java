@@ -1,5 +1,9 @@
 import java.util.Arrays;
-
+/**
+ * Quinn Epstein
+ * Quiz 1
+ * CS 123
+ */
 public class HelloWorld {
     public static void main(String[] args) {
         // TODO: study this for Java Basics

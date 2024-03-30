@@ -1,7 +1,11 @@
 package Exercise;
 
 import java.util.Arrays;
-
+/**
+ * Quinn Epstein
+ * Quiz 1
+ * CS 123
+ */
 public class Exercise3 {
     public static void main(String[] args) {
         exercise3();
