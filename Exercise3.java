@@ -10,8 +10,6 @@ public class Exercise3 {
     public static void main(String[] args) {
         exercise3();
     }
-
-    // TODO
     private static void exercise3() {
         /*
         Task: write code to check whether a given array contains a valid fibonacci sequence
